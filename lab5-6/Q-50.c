@@ -21,13 +21,12 @@ for (int i = 1; i <= 5 ; i++)
   {
     result = ascii;
     printf(" %c ", result);
-    ascii += 1;
   }
     printf("\n");
-    ascii = 65;
+    // ascii = 65;
+    ascii += 1;
   
 }
-
 
 
 }
