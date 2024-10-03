@@ -18,10 +18,10 @@ int main(){
     if (a[i] > a[i + 1])
     {
       save = i + 1;
+      printf("Pivot element is equal to = %d and its position in array is %d", a[save], save);
     }
     
   }
   
-  printf("Pivot element is equal to = %d and its position in array is %d", a[save], save);
   
 }
