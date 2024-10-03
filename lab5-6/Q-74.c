@@ -9,10 +9,10 @@ int main() {
     int i = 0, j = 0, k = 0;
 
     while (i < n && j < m) {
-        if (a[i] < b[j]) {
+        if (a[i] < b[j]) { // c = 1, i = 2
             c[k++] = a[i++];
         } else {
-            c[k++] = b[j++];
+            c[k++] = b[j++]; // c[1] = 2, j++
         }
     }
 

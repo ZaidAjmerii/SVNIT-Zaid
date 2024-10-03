@@ -10,15 +10,16 @@ int main() {
         scanf("%d", &votes[i]);
 
         if (votes[i] >= 1 && votes[i] <= 5) {
-            count[i] = votes[i];
+            count[votes[i] - 1]++;
         } else {
             spoilt++;
         }
     }
-
-    for (int i = 0; i < 5; i++) {
-        printf("Candidate %d: %d votes\n", i + 1, count[i]);
+    for (int i = 0; i < 5; i++)
+    {
+        printf("votes for cardidate %d are %d\n\n", i + 1, count[i]);
     }
+    
 
     printf("Spoilt ballots: %d\n", spoilt);
 
