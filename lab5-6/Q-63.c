@@ -13,6 +13,7 @@ int main()
   }
 
 
+
   for (int i = 0; i < 3; i++)
   {
     for (int j = 0; j < 3; j++)
@@ -42,3 +43,16 @@ int main()
 
   printf("Max = %d and Min = %d", max,min);
 }
+
+
+/*
+
+   
+   1 6 7  i = 0 
+   8 8 2      1 
+   2 4 6      2
+
+
+
+
+*/

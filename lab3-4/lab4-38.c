@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int N;
     int i = 1;
 
@@ -11,16 +12,17 @@ int main() {
 
     printf("Perfect squares up to %d are:\n", N);
 
-    while (1) {
+    while (1)
+    {
         int square = i * i;
-        if (square > N) {
+        if (square > N)
+        {
             break;
         }
         printf("%d ", square);
+        printf("\n");
         i++;
     }
-
-    printf("\n");
 
     return 0;
 }

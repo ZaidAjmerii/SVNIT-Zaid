@@ -1,4 +1,6 @@
 /*
+
+
 program to findout max and second max from N nos
 
 take one number from the user
@@ -30,6 +32,7 @@ int main()
     for (int i = 1; i <= N; i++)
     {
         printf("Enter your %d here:\n>>>", i);
+
         scanf("%d", &num);
 
         if (num > max)

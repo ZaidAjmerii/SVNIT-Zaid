@@ -5,6 +5,8 @@
     "format": "c",
     "Q-71.C": "cpp",
     "Q-72.C": "cpp",
-    "Q-73.C": "cpp"
+    "Q-73.C": "cpp",
+    "Q-81.C": "cpp",
+    "time.h": "c"
   }
 }

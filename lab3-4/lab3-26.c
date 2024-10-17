@@ -10,7 +10,6 @@ if else
 
 save the answer into another two variable.
 
-
 */
 
 #include <stdio.h>

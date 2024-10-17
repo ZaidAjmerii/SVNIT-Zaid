@@ -32,7 +32,10 @@ for (int i = 0; i < 5; i++)
   }
 
   printf("\n");
-  arr[i + 1] = 1;
+  
+  if (i + 1 < 5) {
+    arr[i + 1] = 1;
+}
   arr[i] = 0;
   
 }

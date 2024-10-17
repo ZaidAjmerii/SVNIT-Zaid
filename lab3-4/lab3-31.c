@@ -1,6 +1,6 @@
 /*
 
-program to print sum of indiviual digital of a N digit no
+program to print sum of indiviual digitz of a N digit no
 
 */
 

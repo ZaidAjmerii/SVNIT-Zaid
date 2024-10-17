@@ -4,9 +4,12 @@ int main()
 
 {
 
-  for (int i = 1; i <= 5; i++)
+ 
+
+  for (int i = 1; i <= 7; i+=2)
   {
-    for (int j = 1; j <= 5 - i; j++)
+    
+    for (int j = 1; j <= (7 - i)/2; j++)
     {
       printf(" ");
     }
@@ -14,25 +17,35 @@ int main()
     for (int k = 1; k <= i; k++)
     {
       printf("*");
-      printf(" ");
+
     }
+    
 
     printf("\n");
+
+    
   }
 
-  for (int i = 1; i <= 5; i++)
+  for (int i = 1; i <= 6; i+=2)
+  
   {
-    for (int j = 1; j <= i; j++)
+    
+
+    
+    printf(" ");
+    for (int j = 1; j <= i/2; j++)
     {
       printf(" ");
     }
 
-    for (int k = 1; k <= 5-i; k++)
+    for (int k = 1; k <= 6 - i; k++)
     {
       printf("*");
-      printf(" ");
+
     }
 
     printf("\n");
+    
   }
 }
+

@@ -46,7 +46,7 @@ int main(){
   {
     for (int j = 0; j < 3; j++)
     {
-      mul[i][j] = arr1[i][j] * arr2[i][j];
+      mul[i][j] = arr1[i][j] * (arr2[i][0] + arr2[i][1] + arr2[i][2]);
     }
 
   }
@@ -66,3 +66,6 @@ int main(){
 
 
 }
+
+
+

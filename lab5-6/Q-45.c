@@ -28,7 +28,7 @@ Until Its Matched
 
 int main(){
 
-srand(time(NULL));
+srand(time(0));
 
 int luckyNum, userNum, guesses = 100;
 
